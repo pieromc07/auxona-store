@@ -31,4 +31,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'youtube' => [
+        'key' => env('YOUTUBE_API_KEY'),
+        'base_url' => env('YOUTUBE_API_URL'),
+    ],
+
+    'deezer' => [
+        'key' => env('DEEZER_API_KEY'),
+        'base_url' => env('DEEZER_API_URL'),
+    ],
+
 ];
